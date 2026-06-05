@@ -126,9 +126,9 @@ https://policies.google.com/technologies/partner-sites
 
 如需了解 Firebase 的数据实践,请参阅:https://firebase.google.com/support/privacy
 
-### 6.3 穿山甲 / Pangle（当前未启用)
+### 6.3 穿山甲 / Pangle（未集成)
 
-本应用代码中**保留了**对穿山甲 / Pangle 广告 SDK 的预留接口,但**该 SDK 在当前发布版本中并未启用、未集成生效,不会运行,也不会收集或传输任何数据**。若未来版本正式启用该 SDK,我们将在启用前更新本隐私政策,并相应说明其数据处理方式。
+当前发布版本**未集成**穿山甲 / Pangle 广告 SDK——其代码与依赖均已从本应用中移除,**不会运行,也不会收集或传输任何数据**。若未来版本(例如面向中国大陆应用商店的单独版本)集成该 SDK,我们将在发布前更新本隐私政策,并相应说明其数据处理方式。
 
 ### 第三方汇总表
 
@@ -136,7 +136,7 @@ https://policies.google.com/technologies/partner-sites
 |---|---|---|---|
 | Google AdMob | 展示非个性化广告 | 是 | 否(仅非个性化 + SKAdNetwork 归因) |
 | Google Firebase Core | 基础初始化 | 是(仅 Core) | 否 |
-| 穿山甲 / Pangle | 广告(预留) | **否(未启用)** | 不适用 |
+| 穿山甲 / Pangle | 广告 | **否(未集成)** | 不适用 |
 
 ---
 
@@ -295,9 +295,9 @@ The App integrates **only Firebase Core (`firebase_core`)** for basic initializa
 
 For Firebase's data practices, see: https://firebase.google.com/support/privacy
 
-### 6.3 Pangle (穿山甲) — Not Currently Enabled
+### 6.3 Pangle (穿山甲) — Not Integrated
 
-The App's code **retains** a placeholder interface for the Pangle ad SDK, but **this SDK is not enabled or active in the current released version. It does not run and does not collect or transmit any data.** If a future version formally enables this SDK, we will update this Privacy Policy before doing so and describe its data handling accordingly.
+The current released version **does not integrate** the Pangle ad SDK — its code and dependencies have been removed from the App. **It does not run and does not collect or transmit any data.** If a future version (for example, a separate build for mainland-China app stores) integrates this SDK, we will update this Privacy Policy before release and describe its data handling accordingly.
 
 ### Third-Party Summary
 
@@ -305,7 +305,7 @@ The App's code **retains** a placeholder interface for the Pangle ad SDK, but **
 |---|---|---|---|
 | Google AdMob | Show non-personalized ads | Yes | No (non-personalized + SKAdNetwork attribution only) |
 | Google Firebase Core | Basic initialization | Yes (Core only) | No |
-| Pangle (穿山甲) | Advertising (placeholder) | **No (not enabled)** | N/A |
+| Pangle (穿山甲) | Advertising | **No (not integrated)** | N/A |
 
 ---
 
